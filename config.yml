@@ -1,0 +1,11 @@
+services:
+  - nameRoute: api/users
+    url:
+    - https://jsonplaceholder.typicode.com/users
+  - nameRoute: api/posts
+    url:
+    - https://jsonplaceholder.typicode.com/posts
+  - nameRoute: api/user-posts
+    url:
+    - https://jsonplaceholder.typicode.com/users
+    - https://jsonplaceholder.typicode.com/posts
